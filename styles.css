@@ -4,22 +4,8 @@ body {
   padding: 0;
 }
 
-.home {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        min-height: 100vh;
-        align-items: center;
-    }
-    
-    .home .content {
-        flex: 1 1 40rem;
-        padding-top: 6.5rem;
-    }
-
-header {
-  background-color: #333;
-  padding: 20px;
+nav {
+  background: #023047;
 }
 
 nav ul {
@@ -37,6 +23,27 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+.home {
+        background: #8ecae6;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        gap: 1.5rem;
+        min-height: 100vh;
+        align-items: center;
+
+    }
+    
+    .home .content {
+        flex: 1 1 40rem;
+        padding-top: 6.5rem;
+    }
+
+header {
+  background-color: #333;
+  padding: 20px;
 }
 
 .section {
