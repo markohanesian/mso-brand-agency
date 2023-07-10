@@ -47,6 +47,18 @@ nav ul li a {
   text-align: center;
 }
 
+.hero-image-container {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+
 .portfolio-item {
   text-align: center;
 }
