@@ -41,17 +41,13 @@ nav ul li a {
         color: white;
         display: flex;
         flex-wrap: wrap;
-        padding: 50px;
-        gap: 1.5rem;
+        padding: 0px 60px;
         min-height: 100vh;
-        align-items: flex-
-        ;
-
+        align-items: flex-start;
     }
     
     .home .content {
         flex: 1 1 40rem;
-        padding-top: 6.5rem;
     }
 
 
