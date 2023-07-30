@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #4e27ff;
+  font-size: 2rem;
 }
 
 header {
@@ -97,6 +98,17 @@ h2 {
   line-height: 3rem;
   background-color: #fff;
   margin: 0;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  font-size: 2rem;
+}
+
+#contact-form input {
+  padding: 2rem 0;
 }
 
 footer {
