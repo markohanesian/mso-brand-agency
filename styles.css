@@ -47,6 +47,9 @@ nav ul li a {
 }
 
 .section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 50px;
   margin: 10rem 0;
 }
@@ -87,8 +90,13 @@ h2 {
   height: auto;
 }
 
-#about, #services, #contact {
+#services, #about, #contact {
   height: 100vh;
+  color: #333;
+  font-size: 2rem;
+  line-height: 3rem;
+  background-color: #fff;
+  margin: 0;
 }
 
 footer {
