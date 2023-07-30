@@ -108,28 +108,13 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1rem;
-  letter-spacing: 0.15rem;
-  &:hover {
-    font-weight: bold;
-    background-color: #FFD675;
-  }
-}
-
-/* Breakpoints */
-@media (min-width: 320px) {
-  /* Styling for mobile devices */
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  /* Styling for tablets */
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Styling for small screens */
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-  /* Styling for large screens */
+  letter-spacing: .15rem;
+  /* &:hover {
+    /* background-color: #333; */
+    &:before {
+      width: 100%;
+    }
+  } */
 }
 
 @media (min-width: 1201px) {
