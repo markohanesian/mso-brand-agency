@@ -74,6 +74,10 @@ h1 {
   height: auto;
 }
 
+#about {
+  height: 100vh;
+}
+
 footer {
   background-color: #333;
   color: #fff;
