@@ -109,12 +109,10 @@ footer {
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: .15rem;
-  /* &:hover {
-    /* background-color: #333; */
-    &:before {
-      width: 100%;
-    }
-  } */
+  &:hover {
+    background-color: #FFD675;
+    font-weight: bold;
+  } 
 }
 
 @media (min-width: 1201px) {
