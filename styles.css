@@ -30,6 +30,8 @@ nav ul li a {
 }
 
 .hero-image-container {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   height: auto;
 }
@@ -224,11 +226,23 @@ footer {
   body {
     font-size: 20px;
   }
+  #hero-logo-image {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    align-self: center;
+  }
 }
 
 @media (min-width: 1201px) {
   /* Styling for extra large screens */
   body {
     font-size: 22px;
+  }
+  #hero-logo-image {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    align-self: center;
   }
 }
