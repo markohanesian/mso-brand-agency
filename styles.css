@@ -49,6 +49,14 @@ nav ul li a {
   flex: 1 1 40rem;
 }
 
+.home .content h1 {
+  font-weight: 100;
+  letter-spacing: .5rem;
+  line-height: 4rem;
+  color: #fff;
+}
+
+
 .section {
   display: flex;
   flex-direction: column;
