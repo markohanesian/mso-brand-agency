@@ -21,6 +21,7 @@ nav ul {
   justify-content: center;
   list-style-type: none;
   font-size: 2rem;
+  padding: 0;
 }
 
 nav ul li a {
