@@ -51,6 +51,7 @@ nav ul li a {
 }
 
 .home .content h1 {
+  text-align: center;
   font-weight: 100;
   letter-spacing: .5rem;
   line-height: 4rem;
@@ -241,6 +242,9 @@ footer {
     height: auto;
     align-self: center;
   }
+  .home .content h1 {
+    margin: 0px 200px;
+  }
 }
 
 @media (min-width: 1201px) {
@@ -253,5 +257,8 @@ footer {
     width: 1000px;
     height: auto;
     align-self: center;
+  }
+  .home .content h1 {
+    margin: 0px 200px;
   }
 }
